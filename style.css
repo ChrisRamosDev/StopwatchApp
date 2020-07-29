@@ -1,0 +1,48 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+* + * {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+.wrapper {
+  text-align: center;
+  border: 1px solid #333;
+  width: 125px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  background-color: #eee;
+}
+
+span {
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  width: 48px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.start {
+  width: 100px;
+  background-color: rgb(58, 224, 58);
+}
+
+.stop {
+  background-color: rgb(216, 57, 57);
+}
+.reset {
+  background-color: rgb(248, 224, 85);
+}
